@@ -1,0 +1,22 @@
+{
+  "name": "docker-compose",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Juanma",
+  "license": "ISC",
+  "description": "Servidor básico para orquestación con Docker Compose",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.14.1"
+  }
+}

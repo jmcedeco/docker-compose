@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('partials/head')%>
+</head>
+<body>
+  <%- include('partials/header') %>
+  <%- include('partials/sidebar') %>
+  <div style="margin-left: 220px; padding-top: 56px; display: flex; flex-direction: column; min-height: 100vh;">
+
+
+  <div style="margin-left: 220px; display: flex; flex-direction: column; min-height: 100vh;">
+    
+    <main class="d-flex justify-content-center align-items-center text-center flex-grow-1" style="height: 100%;">
+      <div style="width: 100%;">
+        <p class="fs-3 m-0"><%- body %></p>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3"
+        style="position: fixed; bottom: 0; left: 220px; right: 0;">
+      <%- include('partials/footer') %>
+    </footer>
+
+  </div>
+
+  </div>
+</body>
+
+</html>
